@@ -1,0 +1,173 @@
+.fondo{
+background-image: url(https://earlygame.com/uploads/images/_1200x630_crop_center-center_82_none/mafia-5.jpg?mtime=1653936839);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} 
+body {
+    padding: 20px;
+    background: rgb(249, 246, 238); 
+}
+h1{
+    color: black;
+}
+.textosTitulos{
+    font-family: 'Italianno', cursive;
+    color: black;
+    font-size:xx-large;
+}
+.textosP{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: x-large;
+    font-weight: 400;
+}
+.listamenu{
+    display:inline-block;
+    padding-left:1rem;
+    padding-right:1rem;
+    border: auto solid rgb(249, 246, 238);
+    background-color: rgba(249, 246, 238, 0.719);
+    text-decoration: none;
+    color: black;
+    font-family: 'Italianno', cursive;
+    transition:2s;
+    border-radius: 50%;
+    z-index: 1;
+}
+.container__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap ;
+    z-index: 1;
+    top: 0;
+    background:fixed;
+    background-color: whitesmoke;
+	border:0.063rem solid rgb(249, 246, 238);;
+	border-top:1;
+    text-decoration: none;
+    width: 93.05%;
+    position: fixed;
+    overflow: hidden;
+    opacity: 0.8;
+    height: 12%;
+    
+}
+.container__nav a {
+    float: left;
+    display: block;
+    color: none;
+    text-align: center;
+    padding: 14%  16%;
+    text-decoration: none;
+}
+.container__nav:hover{
+    opacity: 1;
+}
+.centrar{
+    height:17%;
+    width:100%;
+     text-align:center;
+    background-color:none;
+}
+html{
+    width: 97.4%;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size:x-large;
+}
+.logo{
+	border-top:1;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.container__secciones{
+    background: rgb(232,224,228);
+	border:1px solid #eee;
+	border-top:1;
+    margin: auto;
+    width: 78.7rem;
+    opacity:0.9;
+}
+.posicion__Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+	border:1px solid none;
+	border-top:1;
+    margin: auto;
+}
+.container__parrafos{
+    display:flex;
+    flex-direction:row;
+    
+}
+.container__img_local{
+    display: flex;
+    justify-content:space-around;
+}
+.botonSaberMas{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: auto;
+    margin-top: 1rem;
+    background-color:none;
+    border-radius: 1rem;
+    border: 2rem;
+    width: 7rem;
+}
+.botonSaberMas:hover{
+    text-decoration: underline;
+}
+.imagenes{
+    width: auto;
+    opacity: 1;
+
+}
+.listamenu:hover{
+   text-decoration: underline;
+}
+.FotoDelivery{
+    border-radius: 60%;
+    width: 30%;
+}
+.Delivery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem;
+    border:1px solid #eee ;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.listpie{
+    display:inline-block;
+    padding-left:1rem;
+    padding-right:1rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Italianno', cursive;
+}
+.listpie:hover{
+    text-decoration: underline;
+}
+.pie{
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-auto-rows: minmax(1rem, auto);
+    grid-gap: .3rem;
+    text-decoration: none;
+}
+.main{
+    margin-top: 50px;
+}
